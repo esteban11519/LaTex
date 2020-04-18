@@ -1,0 +1,67 @@
+\documentclass[12pt,letterpaper]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+
+\usepackage[left=2cm,right=7cm,top=2.54cm,bottom=2.54cm, 
+ marginparsep=0.5cm ,marginparwidth=5cm]{geometry}
+
+
+%My packages
+
+\usepackage{colortbl}
+\usepackage{mathrsfs}
+\usepackage{cite}
+\usepackage{float}
+\usepackage{multicol}
+\usepackage{listings}
+\lstset{language=verilog, breaklines=true, basicstyle=\footnotesize}
+
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{example}{Example}
+
+
+\title{Book's name}
+
+
+
+\author{Esteban}
+\begin{document}
+\maketitle
+\tableofcontents
+
+
+\chapter{}
+
+
+
+\bibliography{myBooks}
+\bibliographystyle{unsrt} 
+
+
+\end{document}
+
+% Some examples to inset figures
+
+%\begin{figure}[H]
+%\centering
+%\includegraphics[width=1\linewidth]{figures/z_propertiesUnilateral1.png}
+%\caption{z-properties unilateral.}
+%\label{z_propertiesUnilateral1}
+%\end{figure}
